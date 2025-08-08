@@ -1,0 +1,10 @@
+{
+  "total_sales_q1": 123144.86,
+  "total_sales_q2": 133764.37,
+  "returning_customers_q1": 781,
+  "returning_customers_q2": 781,
+  "avg_discount_q2": 0.17,
+  "top_declining_category": "Office Supplies",
+  "average_order_value": 458.61,
+  "average_profit_margin": 0.1203
+}

@@ -1,5 +1,5 @@
 import streamlit as st
-from components import show_kpis, show_charts, forcast, filters
+from components import show_kpis, show_charts, forcast 
 from query_ai import handle_query
 from simulator import run_simulation
 
@@ -15,9 +15,6 @@ show_charts()
 
 # Forecast
 forcast()
-
-# Filters
-filters()
 
 # Natural Laugage Q&A
 st.subheader("Ask About the Data")

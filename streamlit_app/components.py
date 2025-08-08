@@ -51,11 +51,3 @@ def forcast():
     forecast = model.predict(future)
     fig4 = px.line(forecast, x='ds', y='yhat', title='30-Day Revenue Forecast')
     st.plotly_chart(fig4)
-
-def filters():
-    st.sidebar.header("Filters")
-    segment_filter = st.sidebar.selectbox("Segment", df['segment'].unique())
-    category_filter = st.sidebar.selectbox("Category", df['category'].unique())
-
-    filtered_df = df[(df['segment'] == segment_filter) & (df['category'] == category_filter)]
-    st.sidebar.markdown(f"Filtered Rows: {len(filtered_df)}")
