@@ -3,7 +3,7 @@
 
 ## Project Overview
 
-Design and deploy an AI-pwered BI dashboard that automatically pulls raw business data (sales, customer behaviour, etc.), processes it via ETL pipelines, summarizes key trends usign LLMs, and presents actionable insights via an interactive Streamlit/Power BI dashboard. Automate reports via Power Automate, and enable stakeholders to ask natural lanugage questions about the data.
+Design and deploy an AI-pwered BI dashboard that pulls raw business data (sales, customer behaviour, etc.), processes it via ETL pipelines, summarizes key trends using LLMs, and presents actionable insights via an interactive Streamlit dashboard. Automate reports via Power Automate, and enable stakeholders to ask natural lanugage questions about the data.
 
 ## Project Structure
 
