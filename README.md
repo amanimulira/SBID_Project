@@ -10,19 +10,21 @@ Design and deploy an AI-pwered BI dashboard that automatically pulls raw busines
 1. Data Pipeline & Engineering 
 
 * Use Python and SQL to extract data from simulated relational database (e.g., PostgreSQL).
+(Used superstore dataset sample form kaggle: https://www.kaggle.com/datasets/vivek468/superstore-dataset-final?resource=download )
 * Build an ETL pipeline to clean, transform, and load the data for analysis.
 
 2. Analysis & ML insights
 
 * Use pandas, Numpy, and scikit-learn to perform:
 	* descriptive analytics (e.g. KPI trends)
-	* Predictive modeling (e.g. forecasting next month's revenue or churn rate)
+	* Predictive modeling (e.g. forecasting next month's revenue or churn rate) 
+(Used Prophet for forecasting - forecasts time series data based on an additive model)
 
 3. AI Summarisation 
 
-* Use an LLM (OpenAI API) to generate business summaries like:
-"Revenue dropped by 12% in Q2 due to decreased returning customer rate. Recommend 
-reactivation email campaign."
+* Use an LLM (OpenAI API) to generate business summaries i.e.
+	"Revenue dropped by 12% in Q2 due to decreased returning customer rate. Recommend 
+	reactivation email campaign."
 * Fine-tune prompt engineering for insightful, concise summaries.
 
 4. Interactive Dashboard
