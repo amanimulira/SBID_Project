@@ -63,7 +63,7 @@ def transform_data(df):
 # 4. Data Export
 # --------------------
 
-def export_data(dataframes, filenames, output_dir="exports"):
+def export_data(dataframes, filenames, output_dir="etl_project/exports"):
     os.makedirs(output_dir, exist_ok=True)
     for df, name in zip(dataframes, filenames):
         df.to_csv(os.path.join(output_dir, name), index=False)
