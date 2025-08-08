@@ -29,13 +29,13 @@ Design and deploy an AI-pwered BI dashboard that pulls raw business data (sales,
 
 4. Interactive Dashboard
 
-* Build with Streamlit/Power BI, including:
+* Built with Streamlit includes:
 	* KPI tiles
 	* Dynamic charts with Plotly
 	* Natural language query interface via LLM
 	* Business scenario simulator (e.g. "What if we increase retention by 10%?)
 
-5. Automation Layer
+5. Automation Layer [Future work]
 
 * Use Power Automate to:
 	* Email weekly insights to stakeholders
