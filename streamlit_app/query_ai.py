@@ -2,7 +2,8 @@ from openai import OpenAI
 import os
 import streamlit as st
 
-client = OpenAI(api_key=os.getenv("OPENAI_KEY"))
+# client = OpenAI(api_key=os.getenv("OPENAI_KEY"))
+client = OpenAI(api_key="")
 
 def handle_query(user_input):
     df = open("exports/metrics_summary.json").read()
