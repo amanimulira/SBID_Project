@@ -1,6 +1,5 @@
 pandas
 sqlalchemy
-psycopg2
 prophet
 openai
 streamlit
